@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fluxo entre duas Telas utilizando o DOM</title>
+    <style>
+        body {
+            width: 300px;
+            margin: auto;
+        }
+
+        input {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            width: 230px;
+            height: 15px;
+        }
+
+        button {
+            background-color: rgb(88, 136, 186);
+            display: block;
+            margin-top: 15px;
+            padding: 5px;
+            border-radius: 5px;
+            color: white;   
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <input class="campos-inscricao" id="login" type="text" placeholder="Login">
+
+        <input class="campos-inscricao" id="senha" type="password" placeholder="Senha">
+
+        <input class="campos-inscricao" id="cpf" type="number" placeholder="CPF">
+
+        <button id="button" onclick="funcaoDeCliqueNoBotao()">Cadastrar</button>
+
+        <script src="index.js"></script>
+    </section>
+</body>
+</html>
