@@ -1,11 +1,14 @@
+var usuario = {};
 function funcaoDeCliqueNoBotao(){
-var login = document.getElementById("login").value;
-var senha = document.getElementById("senha").value;
-var cpf = document.getElementById("cpf").value;
+    usuario = {
+        login: document.getElementById("login").value,
+        senha: document.getElementById("senha").value,
+        cpf: document.getElementById("cpf").value  
+    }
 
-console.log("Concatenando Valores" + login + senha + cpf);
+console.log("Usuario: ", usuario);
 
-localStorage.setItem("login", "senha", "cpf");
+localStorage.setItem("usuario", usuario);
 } 
 
 
