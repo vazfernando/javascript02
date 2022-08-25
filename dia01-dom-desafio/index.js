@@ -3,7 +3,10 @@ function funcaoDeCliqueNoBotao(){
     usuario = {
         login: document.getElementById("login").value,
         senha: document.getElementById("senha").value,
-        cpf: document.getElementById("cpf").value  
+        cpf: document.getElementById("cpf").value,
+        resultado: document.getElementById ('resultado'),  
+        resultado.innerText = usuario
+        location = ('pag02.html')
     }
 
 console.log("Usuario: ", usuario);
