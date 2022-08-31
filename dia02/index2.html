@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Par ou ímpar / Diferente ou igual</title>
+    <style>
+        body {
+            background-color: lightcoral;
+        }
+
+        section {
+            background-color: white;
+            width: 400px;
+            height: 300px;
+            margin: auto;
+            border-radius: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        input {
+            margin-top: 30px;
+            width: 200px;
+            margin-left: 100px;
+            border-radius: 3px;
+            height: 20px;
+            border: 1px solid black;
+        }
+
+        button {
+            background-color: #24A0ED;
+            color: white;
+            display: block;
+            margin-top: 15px;
+            margin-left: 100px;
+            padding: 4px 15px;
+            border-radius: 5px;
+            font-size: 15px;
+        }
+
+        div {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Par ou ímpar / Diferente ou igual</h1>
+
+        <input id="numero01" type="number" placeholder="Número 01">
+
+        <input id="numero02" type="number" placeholder="Número 02">
+
+        <button id="button" onclick="operadoresDeComparacao()">Enviar</button>
+
+        <div id="resultado1"></div>
+
+        <div id="resultado2"></div>
+
+        <script src="index2.js"></script>
+    </section>
+</body>
+</html>
