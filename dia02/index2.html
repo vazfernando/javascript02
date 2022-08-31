@@ -12,8 +12,8 @@
 
         section {
             background-color: white;
-            width: 400px;
-            height: 300px;
+            width: 450px;
+            height: 400px;
             margin: auto;
             border-radius: 20px;
         }
@@ -21,6 +21,8 @@
         h1 {
             text-align: center;
             padding-top: 20px;
+            font-variant: small-caps;
+            font-size: 1.2em;
         }
 
         input {
@@ -44,23 +46,30 @@
         }
 
         div {
+            color: black;
             margin-top: 20px;
+            margin-left: 30px;
+            display: block;
         }
     </style>
 </head>
 <body>
     <section>
-        <h1>Par ou ímpar / Diferente ou igual</h1>
+        <h1>PAR OU ÍMPAR / DIFERENTE OU IGUAL</h1>
 
-        <input id="numero01" type="number" placeholder="Número 01">
+        <input id="numero1" type="number" placeholder="Número 01">
 
-        <input id="numero02" type="number" placeholder="Número 02">
+        <input id="numero2" type="number" placeholder="Número 02">
+
+        <input id="nome" type="text" placeholder="O seu nome">
 
         <button id="button" onclick="operadoresDeComparacao()">Enviar</button>
 
         <div id="resultado1"></div>
 
         <div id="resultado2"></div>
+
+        <div id="resultado3"></div>
 
         <script src="index2.js"></script>
     </section>
